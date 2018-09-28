@@ -12,7 +12,7 @@ class NineImageView: UIView {
 
     @IBOutlet weak var label: UILabel!
     
-    
+    // 方法2
     required init?(coder aDecoder: NSCoder) {
         
         super.init(coder: aDecoder)

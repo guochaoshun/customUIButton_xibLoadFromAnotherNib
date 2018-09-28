@@ -19,6 +19,12 @@ class ViewController: UIViewController {
 
 //      setEdgeInsets()
 
+        
+        // 方法1: xib中有一个普通的view占位,然后把另一个xib的加上去
+        // 方法2: xib中直接就是自己的类名,然后重写initWithCoder,在此方法中把一个普通的UIView加上去
+
+        
+        // 方法1
         guard let content = Bundle.main.loadNibNamed("ShareView", owner: nil, options: nil)?.first as? ShareView else {
             return
         }
