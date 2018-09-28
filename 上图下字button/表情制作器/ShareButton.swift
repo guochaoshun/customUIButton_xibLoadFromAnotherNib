@@ -36,8 +36,8 @@ class ShareButton: UIButton {
 
 
     }
-//
-//    // 方法3
+
+    // 方法3
 //    override func awakeFromNib() {
 //        super.awakeFromNib()
 //        self.titleLabel?.textAlignment = .center
